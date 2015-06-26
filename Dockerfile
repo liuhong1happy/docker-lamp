@@ -10,7 +10,7 @@ RUN apt-get -y install git apache2 libapache2-mod-php5 mysql-server php5-mysql p
   echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # mysql环境变量
-ENV PASS_WORD 123456
+ENV MYSQL_PASS 123456
 
 # 配置mysql
 RUN /etc/init.d/mysql start
