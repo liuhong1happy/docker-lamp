@@ -15,4 +15,4 @@ Docker化LAMP
 
 - 运行容器
 
-docker run -d -it --name lamp -p 8080:80 -p 3306:3306 docker-lamp
+        docker run -d -it --name lamp -p 8080:80 -p 3306:3306 docker-lamp
